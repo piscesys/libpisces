@@ -1,4 +1,4 @@
-import Cutefish.Audio 1.0
+import Pisces.Audio 1.0
 
 SortFilterModel {
     property var filters: []

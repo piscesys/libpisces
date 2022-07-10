@@ -1,3 +1,3 @@
-module Cutefish.NetworkManagement
+module Pisces.NetworkManagement
 
-plugin cutefishnm_qmlplugins
+plugin piscesnm_qmlplugins

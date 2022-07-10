@@ -1,2 +1,2 @@
-module Cutefish.Accounts
-plugin cutefishaccounts_qmlplugins
+module Pisces.Accounts
+plugin piscesaccounts_qmlplugins

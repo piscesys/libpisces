@@ -13,9 +13,9 @@ find_package(KF5Screen REQUIRED)
 find_package(KF5KIO REQUIRED)
 find_package(Qt5 REQUIRED COMPONENTS Test Sensors)
 
-add_library(cutefishscreen_qmlplugins SHARED ${SCREEN_SRCS})
+add_library(piscesscreen_qmlplugins SHARED ${SCREEN_SRCS})
 
-target_link_libraries (cutefishscreen_qmlplugins
+target_link_libraries (piscesscreen_qmlplugins
     Qt5::Core
     Qt5::Quick
     Qt5::Gui
@@ -27,5 +27,5 @@ target_link_libraries (cutefishscreen_qmlplugins
     KF5::KIOCore
 )
 
-install(TARGETS cutefishscreen_qmlplugins DESTINATION ${INSTALL_QMLDIR}/Cutefish/Screen)
-install(FILES qmldir DESTINATION ${INSTALL_QMLDIR}/Cutefish/Screen)
+install(TARGETS piscesscreen_qmlplugins DESTINATION ${INSTALL_QMLDIR}/Pisces/Screen)
+install(FILES qmldir DESTINATION ${INSTALL_QMLDIR}/Pisces/Screen)

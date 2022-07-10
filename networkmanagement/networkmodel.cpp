@@ -27,7 +27,7 @@
 #endif
 #include <NetworkManagerQt/Settings>
 
-Q_LOGGING_CATEGORY(gLcNm, "cutefish.networkmanager", QtInfoMsg)
+Q_LOGGING_CATEGORY(gLcNm, "pisces.networkmanager", QtInfoMsg)
 
 NetworkModel::NetworkModel(QObject *parent)
     : QAbstractListModel(parent)
